@@ -1,0 +1,19 @@
+{
+  "name": "Test-Driven-Katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w wrap.spec.js",
+    "start": "nodemon mocha wrap.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
